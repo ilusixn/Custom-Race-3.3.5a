@@ -16,8 +16,8 @@ This repo only exists because of other people's work. If your name is missing or
 ## Races, models, textures, animation
 - **Furioz, Corruption and the Eunoia team**: the Eunoia races (Nightborne, Void Elf, Eredar, Dracthyr, Ogre, Lightforged Draenei, Illidari,
   Dark Iron, Broken, Pandaren), used with their permission.
-- **AllRaces v12 pack author**: the 14 races Elune's Chosen, Qiraji, Sureki, Dreadlord, Titan, Wretched, Fungarian, Sporeling,
-  Stormforged, Mo'arg, Nerubian, Lich, Mogu, Lost One. The pack does not state a name; add it here when known.
+- **AllRaces v12 pack** (Elune's Chosen, Qiraji, Sureki, Dreadlord, Titan, Wretched, Fungarian, Sporeling, Stormforged, Mo'arg, Nerubian,
+  Lich, Mogu, Lost One): same authors as the other race mods: **Furioz, Corruption, Eunoia, Kalibros (STRHercules)** and the teams above.
 - **Kalibros | Lord of Wen (STRHercules)**: Esteria races (Haranir, Highmountain, Thin Human / Forgotten, Drakkin male, Drakonid), the
   Esteria appearance runtime and retail race adapter, body slider presets, race-porting guide. His game: **Wardens of Wen** (Steam).
   https://github.com/STRHercules
