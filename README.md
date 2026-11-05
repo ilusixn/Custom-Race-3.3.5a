@@ -18,6 +18,8 @@ Every custom race of CoA Custom 1.9.9 (plus the Eunoia / Retail ports) (Conquest
 Races and ids: Elune's Chosen 118, Qiraji 88, Sureki 86, Dreadlord 89, Titan (F) 91, Wretched 92, Fungarian 93, Sporeling 111,
 Stormforged 114, Mo'arg 119, Nerubian 120, Lich 122, Mogu 123, Lost One 125.
 
+**Complete list of every race: [RACES.md](RACES.md).**
+
 Needs a custom worldserver (racials are in C++, the stock one does not have them). Back up characters before applying SQL.
 Test build: some races are hidden on the creation screen on purpose. Full package: the CoA Custom 1.9.9 release.
 
