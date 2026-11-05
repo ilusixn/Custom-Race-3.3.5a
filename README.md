@@ -24,6 +24,14 @@ Test build: some races are hidden on the creation screen on purpose. Full packag
 ## All races (ids)
 66 Highmountain Tauren, 67 Mechagnome, 68/69 Earthen, 70/71 Haranir, 72/77 Skyborne, 74 Vulpera, 75/102 Centaur, 78 Jinyu, 79 Arakkoa, 80/81 Darkfallen, 82 Sethrak, 83 Gnoll, 85 Two-Headed Ogre, 86 Sureki, 87 Faceless One, 88 Qiraji, 89 Dreadlord, 90 Banshee, 91 Titan, 92 Wretched, 93 Fungarian, 96 Thin Human / Forgotten, 97 Saberon, 98/100 Drakonid, 99 Drakkin, 101 Venthyr, 103 Grummle, 104 Slime Giant, 106 Mantid, 107 Kyrian, 109 Ethereal, 110 Sylvari, 111 Sporeling, 112 Hozen, 114 Stormforged, 118 Elune's Chosen, 119 Mo'arg, 120 Nerubian, 122 Lich, 123 Mogu, 125 Lost One
 
+
+## Earlier races (ids 12-65: Eunoia, Esteria-era and Medviten ports)
+12 Zandalari Troll, 13 Worgen, 14 High Elf, 15 Tuskarr, 16 Kul Tiran, 17 Taunka, 18 Vrykul, 19 Vulpera, 20/29 Pandaren, 21 Naga, 22 Broken, 23 Fel Orc,
+24 Forest Troll, 25 Ice Troll, 26 Skeleton, 27 Earthen, 28 Drakkari Troll, **30/31 Murloc**, 32/33 Forgotten, 42 Northrend Skeleton, 45 Leper Troll,
+46 Troglodyte, 47 Alpha Worgen, 48 Dark Iron Dwarf, 49 Mag'har Orc, 50 Furbolg, 51 Undead Gnome, 52 Orc (alt), 53 Ogre, 54/58 Dracthyr, 55 Eredar,
+56 Harpy, 57 Alpha Goblin, 59 Void Elf, 60 Illidari Blood Elf, 61 Illidari Night Elf, 62 Lightforged Draenei, 63 Nightborne.
+Ids 34-44 mirror the same models for the other faction. Source of truth: `server/dbc/ChrRaces.dbc`.
+
 Full race list with Eunoia and Retail races: server `ChrRaces.dbc`.
 
 ## Downloads (Releases page)
