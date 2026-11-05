@@ -1,3 +1,5 @@
+> **NOT DRAG AND DROP. This is a developer resource, not an installer. It is meant for people who run their own self-hosted AzerothCore server and want to use these races: tweaking will be required (race ids, DBC merging, SQL, core code, your own client setup). No executables or DLLs are included on purpose. Back up your database and DBC files first. Everything is provided as-is, with no support guarantee.**
+
 # CoA Custom Races
 
 Every custom race of CoA Custom 1.9.9 (plus the Eunoia / Retail ports) (Conquest of Azeroth, AzerothCore server + CoA64 client) and nothing else.
