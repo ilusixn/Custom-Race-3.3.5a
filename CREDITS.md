@@ -2,24 +2,43 @@
 
 This repo only exists because of other people's work. If your name is missing or wrong, open an issue and it will be fixed.
 
-## Races, models, textures
-- **Furioz, Corruption and Eunoia**: the original custom race work (Eunoia client) reused with the creator's permission.
-- **AllRaces v12 pack author**: the 14 races Elune's Chosen, Qiraji, Sureki, Dreadlord, Titan, Wretched, Fungarian, Sporeling, Stormforged,
-  Mo'arg, Nerubian, Lich, Mogu, Lost One (models, skins, creator data). The pack does not state a name; add it here when known.
-- **Kalibros**: Drakkin M, Drakonid, body slider presets, the Esteria race-porting guide and tools.
-- **Dex**: Drakkin F.
-- **Uncle Snowzo (SnowzoCraft)**: Jinyu.
-- **Esteria** and its authors: appearance system (EsteriaAppearance DLL / bins) the races plug into.
-- **Kyrian / Venthyr package authors**; **Shotboom**: Kyrian shoulder fit.
-- **Blizzard Entertainment**: many models and textures are derived from World of Warcraft assets. No ownership is claimed.
+## Base: server, client, bots
+- **Jealous-Sound**: Conquest of Azeroth core and repack.
+- **AzerothCore** contributors: the server, mod-ah-bot, mod-playerbots.
+- **SQUID / Zyth45**: CoA playerbots (mod-playerbots, https://github.com/Zyth45/mod-playerbots).
+- **Corfirean**: CoA Server Manager, CoA Companions, coa-bots core.
+- **Westen / Sven Bledt**: the CoA64 x64 client (https://github.com/Westen-CoACore/CoA64) this work runs on; also the race lore texts (Westen).
+- **Alyst3r**: ascension-extensions-reconstruction (MIT), ported into the CoA64 client.
+- **wowdecomp** authors: the 3.3.5a client decompilation CoA64 is based on.
+- **Project Ascension**: race models, textures and client data the pack builds on.
+- **Blizzard Entertainment**: World of Warcraft; many models and textures derive from its assets. No ownership claimed.
 
-## Mechanics, subclassing, tooling
-- **Stefan (stefanw1337)**: mod-subclass, The Twins / Thin Twins, Two-Headed Ogre (race 85) and its helmet system.
+## Races, models, textures, animation
+- **Furioz, Corruption and the Eunoia team**: the Eunoia races (Nightborne, Void Elf, Eredar, Dracthyr, Ogre, Lightforged Draenei, Illidari,
+  Dark Iron, Broken, Pandaren), used with their permission.
+- **AllRaces v12 pack author**: the 14 races Elune's Chosen, Qiraji, Sureki, Dreadlord, Titan, Wretched, Fungarian, Sporeling,
+  Stormforged, Mo'arg, Nerubian, Lich, Mogu, Lost One. The pack does not state a name; add it here when known.
+- **Kalibros | Lord of Wen (STRHercules)**: Esteria races (Haranir, Highmountain, Thin Human / Forgotten, Drakkin male, Drakonid), the
+  Esteria appearance runtime and retail race adapter, body slider presets, race-porting guide. His game: **Wardens of Wen** (Steam).
+  https://github.com/STRHercules
+- **Dex**: Drakkin female.
+- **Uncle Snowzo (SnowzoCraft)**: Jinyu.
+- **Yami**: Arakkoa.
+- **FrolickingFauns**: Sylvari face / fur textures.
+- **Project Reforged**: Furbolg (open source).
+- **Sirus**: Naga animations (open source).
+- **Furioz420**: original 64-race module, wxl-modern-m2 (https://github.com/Furioz420).
+- **Dokman / WXL (WarcraftXL)**: wxl-races-patcher (https://github.com/Dokman/wxl-races-patcher), `dinput8.dll` 64-race client.
+- **Medviten** (with Mattiks, Amarion, Baercraft): mod-worgoblin-high-elf (AGPL-3.0): Mag'har Orc, Ogre, Dark Iron Dwarf.
+- **Kyrian / Venthyr package authors** and **Shotboom**: Kyrian and Venthyr, Kyrian shoulder fit.
+- **Grummle**: model from Ascension / retail assets, converted for WotLK.
+- **romaindnd89-cmd**: Prof-bard (https://github.com/romaindnd89-cmd/Prof-bard).
+
+## Mechanics, subclassing, fixes
+- **Stefan (stefanw1337)**: mod-subclass, The Twins / Thin Twins, Two-Headed Ogre and its helmet system.
 - **Aspollon**: client fixes.
-- **SQUID / Zyth45, Corfirean, Westen, Yami, FrolickingFauns, Furioz420, Dokman / WXL, Medviten, Project Reforged, Sirus,
-  romaindnd89-cmd, Project Ascension, STRHercules, Jealous-Sound**: the CoA server / client base this builds on.
-- **AzerothCore** contributors.
-- **ilusixn**: integration, animation fixes, racials, armour fit, release engineering (with Claude Code).
+- **ilusixn**: CoA Custom integration, the Retail adapter (Worgen / Dracthyr forms), animation and seating fixes, racials, armour fit,
+  release engineering (built with Claude Code).
 
 ## Licensing note
 Third-party assets keep their original authors' terms. Nothing here grants a licence to them. Code written for this repo
