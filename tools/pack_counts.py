@@ -43,4 +43,4 @@ if __name__ == '__main__':
         print(n, a, b)
     lines.append('};')
     lines += ['inline constexpr unsigned PackExtra[12][2][2] = {'] + ['    {{%d, %d}, {%d, %d}},' % (extra(i, 0) + extra(i, 1)) for i in range(12)] + ['};']
-    open('C:/CoA-Build/client-src/CoA/Source/Modules/Esteria/PackCounts.inl', 'w').write('\n'.join(lines) + '\n')
+    open('C:/CoA-Build/coa64/CoA/Source/Modules/Esteria/PackCounts.inl', 'w').write('\n'.join(lines) + '\n')

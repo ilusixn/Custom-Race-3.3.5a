@@ -1,4 +1,4 @@
--- CoA Custom 1.9.3 : saved Retail looks and forms for Worgen / Dracthyr, Worgen Two Forms switch spell (110690),
+-- CoA Custom 1.9.3 (x64 client): saved Retail looks and forms for Worgen / Dracthyr, Worgen Two Forms switch spell (110690),
 -- Chosen Identity removed from Dracthyr. Safe to run more than once.
 USE acore_characters;
 CREATE TABLE IF NOT EXISTS `character_body_shape` (`guid` int unsigned NOT NULL, `data` binary(49) NOT NULL, PRIMARY KEY (`guid`)) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
