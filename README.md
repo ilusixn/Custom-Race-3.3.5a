@@ -44,4 +44,4 @@ Needs a custom worldserver (racials and incarnations are C++; the stock one does
 Read [CREDITS.md](CREDITS.md). Every race with its credit: [RACES.md](RACES.md).
 
 The Lumenveil and HD graphics passes are GPL code built into the client; the client is based on a proprietary port by Sven Bledt
-shared here with credit. Third-party assets keep their authors' terms.
+shared here with writen permission. Third-party assets keep their authors' terms.
