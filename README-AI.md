@@ -6,7 +6,7 @@ Always keep the credits in `CREDITS.md` with anything you redistribute.
 
 ## 0. What you need to know first
 - Stock 3.3.5a (12340) clients and stock AzerothCore only know races 1-11. These races use ids 12-125. The client must be a build that
-  accepts more than 32 playable races (this project uses a 64-bit client with extended race support; a plain client cannot show them).
+  accepts more than 32 playable races (this project uses a client with extended race support; a plain client cannot show them).
   If your client cannot do that, stop here: the data below will not make races appear.
 - Race ids above 32 do **not** fit in the 32-bit race masks of stock AzerothCore (`RACEMASK_*`, `playercreateinfo`, quest/spell/item
   `AllowableRace`, faction templates). In this project they wrap/are mapped to a base race: read `RACES.md` and decide your own mapping.

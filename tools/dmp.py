@@ -11,7 +11,7 @@ base=None
 for i in range(n):
     b,size,_,_,nm=struct.unpack_from('<QIIII',d,o+4+108*i)
     l=struct.unpack_from('<I',d,nm)[0]; name=d[nm+4:nm+4+l].decode('utf-16le')
-    if name.lower().endswith('coa64.exe'): base,msize=b,size
+    if name.lower().endswith('client.exe'): base,msize=b,size
 print('base',hex(base))
 # exception stream 6
 sz,o=st[6]; tid,_=struct.unpack_from('<II',d,o); code,fl,rec,addr,nparam=struct.unpack_from('<IIQQI',d,o+8)
@@ -35,11 +35,11 @@ def read(a,l):
 stk=read(rsp,0x2000)
 # map
 syms=[]
-for line in open('C:/CoA-Build/coa64/bin/Win/CoA64.map',encoding='latin1'):
+for line in open('C:/CoA-Build/client-src/bin/Win/client.map',encoding='latin1'):
     m=re.match(r'\s*([0-9a-f]{4}):([0-9a-f]{8})\s+(\S+)\s+([0-9a-f]{16})',line)
     if m: syms.append((int(m.group(4),16),m.group(3)))
 syms.sort()
-mb=int(re.search(r'Preferred load address is ([0-9a-f]+)',open('C:/CoA-Build/coa64/bin/Win/CoA64.map',encoding='latin1').read()).group(1),16)
+mb=int(re.search(r'Preferred load address is ([0-9a-f]+)',open('C:/CoA-Build/client-src/bin/Win/client.map',encoding='latin1').read()).group(1),16)
 keys=[s[0] for s in syms]
 def name(a):
     i=bisect.bisect_right(keys,a-base+mb)-1

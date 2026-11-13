@@ -7,9 +7,9 @@ This repo only exists because of other people's work. If your name is missing or
 - **AzerothCore** contributors: the server, mod-ah-bot, mod-playerbots.
 - **SQUID / Zyth45**: CoA playerbots (mod-playerbots, https://github.com/Zyth45/mod-playerbots).
 - **Corfirean**: CoA Server Manager, CoA Companions, coa-bots core.
-- **Westen / Sven Bledt**: the CoA64 x64 client (https://github.com/Westen-CoACore/CoA64) this work runs on; also the race lore texts (Westen).
-- **Alyst3r**: ascension-extensions-reconstruction (MIT), ported into the CoA64 client.
-- **wowdecomp** authors: the 3.3.5a client decompilation CoA64 is based on.
+- **Westen / Sven Bledt**: the CoA client port (https://github.com/Westen-CoACore/CoA64) this work runs on; also the race lore texts (Westen).
+- **Alyst3r**: ascension-extensions-reconstruction (MIT), ported into the CoA client.
+- **wowdecomp** authors: the 3.3.5a client decompilation the client is based on.
 - **Project Ascension**: race models, textures and client data the pack builds on.
 - **Blizzard Entertainment**: World of Warcraft; many models and textures derive from its assets. No ownership claimed.
 
@@ -39,6 +39,14 @@ This repo only exists because of other people's work. If your name is missing or
 - **Aspollon**: client fixes.
 - **ilusixn**: CoA Custom integration, the Retail adapter (Worgen / Dracthyr forms), animation and seating fixes, racials, armour fit,
   release engineering (built with Claude Code).
+
+## Added in V2
+- **ilusixn**: Gilgoblin, the Fading Island restore (boats, elevators, goblin NPCs, spirit healer), Retail mounts and pets, class incarnations
+  and class health, the dev menu, animation repairs (Sylvari, Centaur, Faceless One), bot fixes, the CoACustomRace client build and its
+  graphics integration, release engineering (built with Claude Code).
+- **Lumenveil** and the **HD water / material passes**: GPL graphics code (Lumenveil GPL-2.0, HD passes GPL-3.0+), integrated into the client.
+- **jealous-sound, the CoAC team, svenbledt and Pitho**: base work the Fading Island restore builds on.
+- Every race with its credit: [RACES.md](RACES.md) and `docs/CoA-Custom-Races-V2-Credits.xlsx`.
 
 ## Licensing note
 Third-party assets keep their original authors' terms. Nothing here grants a licence to them. Code written for this repo
