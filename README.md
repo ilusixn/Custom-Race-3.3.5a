@@ -2,7 +2,7 @@
 
 # CoA Custom Races
 
-Every custom race of CoA Custom 1.9.9 (plus the Eunoia / Retail ports) (Conquest of Azeroth, AzerothCore server + CoA64 client) and nothing else.
+Every custom race of CoA Custom 1.9.9 (plus the Eunoia / Retail ports) (Conquest of Azeroth, AzerothCore server + CoA client) and nothing else.
 **Read [CREDITS.md](CREDITS.md) first.**
 
 | Folder | What |
@@ -39,4 +39,4 @@ Ids 34-44 mirror the same models for the other faction. Source of truth: `server
 Full race list with Eunoia and Retail races: server `ChrRaces.dbc`.
 
 ## Downloads (Releases page)
-`CoA-Races-Only-1.9.9-1..4.zip`: every race archive (models, animations, textures), creator data, armour fit files, CoA64.exe + Retail adapter data, addons, all server DBCs and SQL. Extract all four into one folder; see `README-RACES.txt` inside. The 4 zips are the complete set; this git tree holds the text sources, tools and the 14 AllRaces v12 assets.
+`CoA-Races-Only-1.9.9-1..4.zip`: every race archive (models, animations, textures), creator data, armour fit files, CoA.exe + Retail adapter data, addons, all server DBCs and SQL. Extract all four into one folder; see `README-RACES.txt` inside. The 4 zips are the complete set; this git tree holds the text sources, tools and the 14 AllRaces v12 assets.
